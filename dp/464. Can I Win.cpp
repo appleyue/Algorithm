@@ -42,6 +42,11 @@ hint:
 notice: maxChoosableInteger <= 20 and desiredTotal <= 300.
 use int to replace bool vector
 
+默认玩家都采取最优策略，判断某人先开始是否必赢，
+
+必赢：下一状态必输
+
+必输：下一状态全赢
 */
 
 int format(vector<bool>& state){
